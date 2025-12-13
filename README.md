@@ -26,17 +26,23 @@ Life Corrosion: Immediately upon starting, a life or health bar begins to slowly
 Question Display: A code snippet (the "Code to Guess") is displayed along with several multiple-choice answers or input fields.
 
 Scoring:
-Correct Answer: The player earns a set amount of points (e.g., +100 points) and a small amount of time/life may be restored.
-Incorrect Answer: The player loses a significant number of points (e.g., -50 points) and incurs a large deduction from their Life Bar, accelerating the loss condition.
+Correct Answer: The player earns a set amount of points (e.g., +10 points) and a small amount of time/life may be restored.
+Incorrect Answer: The player loses a significant number of points (e.g., -10 points) and incurs a large deduction from their Life Bar, accelerating the loss condition.
 
 Game End: 
 The game ends when the Life Bar reaches zero. The player's final score is recorded and displayed on the High Score screen.
 
 # How to Run the Program
 
+
 You will need to Install PHP and VSCode in your device.
-https://code.visualstudio.com/
-https://www.php.net/downloads.php (VS17 x64 Thread Safe)
+
+You are required to use :
+
+xampp, vscdoe, php, mysql workbench
+
+
+
 
 Add These Extensions in VSCode.
 Php Profiler
@@ -45,6 +51,16 @@ Php Intelephense
 Vetur
 
 Then open the code using VSCode, and click on PHP Server: Serve Project.
+
+# Downloadable Links
+
+https://www.mysql.com/downloads/
+https://www.apachefriends.org/
+https://code.visualstudio.com/
+https://www.php.net/downloads.php (VS17 x64 Thread Safe)
+
+You need to use download this GDRIVE files to be able to use the intended visuals in the game:
+https://drive.google.com/drive/folders/1SXNZNGvA5vlID2p5BTCoeGqepK7hjUG2?usp=sharing
 
 
 
