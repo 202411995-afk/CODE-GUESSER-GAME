@@ -33,26 +33,20 @@ Game End:
 The game ends when the Life Bar reaches zero. The player's final score is recorded and displayed on the High Score screen.
 
 
-# Steps
-1.Place the project folder in your web server document root (e.g. htdocs/(filename)
-2.Ensure leaderboard.json exists in the same directory as the main PHP file. If it's not there, the app will create it automatically.
-3.Open Xampp and then Start APACHE, MYSQL
-4.Open your browser then type "http://localhost/test1/game.php"
-5.Play the game.
+# Steps-Place the project folder in your web server document root (e.g. htdocs/(filename)
+-Ensure leaderboard.json exists in the same directory as the main PHP file. If it's not there, the app will create it automatically.
+-Open Xampp and then Start APACHE, MYSQL
+-Open your browser then type "http://localhost/login.php"
+-Play the game.
 
 
 
 # How to Run the Program
 
-
-You will need to Install PHP and VSCode in your device.
+You will need PHP, XAMPP, MYSQL and VSCode in your device.
 
 You are required to use :
-
 xampp, vscdoe, php, mysql workbench
-
-
-
 
 Add These Extensions in VSCode.
 Php Profiler
@@ -60,12 +54,39 @@ Php Server
 Php Intelephense
 Vetur
 
-Then open the code using VSCode, and click on PHP Server: Serve Project.
+Disable MYSQL 80
+In the Services application, go to the mysql80 row and double click. Change Startup Type to Manual.
+-WIN+R, then type > services.msc, find the > MYSQL 80, and disable it>.
+
+Add your PHP folder to your System Environment Variables on Windows.
+
+- Locate Your PHP Path
+Find the folder where you installed or extracted PHP. Copy the address bar.
+Common examples: C:\php or C:\xampp\php
+
+- Open Environment Variables
+Press Windows Key + R on your keyboard.
+
+Type sysdm.cpl and hit Enter.
+
+Go to the Advanced tab and click the Environment Variables... button at the bottom.
+
+- Edit the Path
+In the "System variables" section (the bottom box), find the row named Path and select it.
+
+Click Edit...
+Click New on the right side.
+Paste the path to your PHP folder (from Step 1).
+Click OK on all open windows to save.
+
+Install XAMPP and Start Apache and MYSQL
+
+Then open the code using VSCode, and click on PHP Server: Serve Project and type to your brower localhost/"yourfoldername"/login.php.
 # Source Code
 - https://drive.google.com/drive/folders/15e-g8RWWp7rVSqVKBY6teMiQa2Yv8yAT?usp=sharing
 
 # Video Demonstration Links
--
+- https://drive.google.com/drive/folders/1VAxO1W-UaVHkI_ESxlsyBQyIuFWCX7Yu?usp=sharing
 
 # Downloadable Links
 
