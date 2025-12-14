@@ -90,6 +90,7 @@ Then open the code using VSCode, and click on PHP Server: Serve Project and type
 
 # OOP Implementation
 1. Encapsulation
+
 Location: Refactoring test1.php (Game Logic) and database.php (Config) → classes/GameSession.php
 
 Description:
@@ -99,6 +100,7 @@ Description:
   - Database credentials currently exposed as raw variables in database.php would be encapsulated within a Database class with private properties.
 
 2. Inheritance
+
 Location: Refactoring login.php (Auth) and test1.php (Player Actions) → classes/User.php (Parent) and classes/Player.php (Child)
 
 Description:
@@ -107,6 +109,7 @@ Description:
    functions in test1.php.
 
 3. Polymorphism
+
 Location: Refactoring menu.php (Leaderboard Modes) → classes/GameMode.php Interface
 
 Description:
@@ -116,6 +119,7 @@ Description:
    filtering by WHERE game_mode = 'single').
 
 4. Abstraction
+
 Location: Refactoring test1.php (Task Logic) → classes/AbstractGame.php
 
 Description:
