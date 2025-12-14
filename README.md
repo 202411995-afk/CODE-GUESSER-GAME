@@ -90,31 +90,35 @@ Then open the code using VSCode, and click on PHP Server: Serve Project and type
 
 # OOP Implementation
 1. Encapsulation
-   Location: Refactoring test1.php (Game Logic) and database.php (Config) → classes/GameSession.php
-   Description:
+Location: Refactoring test1.php (Game Logic) and database.php (Config) → classes/GameSession.php
+
+Description:
    - The global session variables $_SESSION['health'] and $_SESSION['level'] currently used in test1.php would be converted to private properties (e.g., private $health;) within a GameSession class to prevent direct
    modification.
   - Public getter and setter methods (e.g., setHealth($value)) would include data validation to ensure health does not drop below 0 or exceed the $MAX_HEALTH defined in test1.php
   - Database credentials currently exposed as raw variables in database.php would be encapsulated within a Database class with private properties.
 
 2. Inheritance
-   Location: Refactoring login.php (Auth) and test1.php (Player Actions) → classes/User.php (Parent) and classes/Player.php (Child)
-   Description:
+Location: Refactoring login.php (Auth) and test1.php (Player Actions) → classes/User.php (Parent) and classes/Player.php (Child)
+
+Description:
    -A parent User class would contain the authentication logic (login/password verification) currently found in login.php.
    -A Player class would extend User, inheriting the login capabilities (username, user_id) while adding game-specific methods like save_game_result() and properties like current_score currently defined as standalone
    functions in test1.php.
 
 3. Polymorphism
-   Location: Refactoring menu.php (Leaderboard Modes) → classes/GameMode.php Interface
-   Description:
+Location: Refactoring menu.php (Leaderboard Modes) → classes/GameMode.php Interface
+
+Description:
    -The menu.php file currently handles single and multi game modes using a string identifier and conditional queries.
    -This would be refactored into a GameMode interface with a method getLeaderboard().
    -Two classes, SinglePlayerMode and MultiPlayerMode, would implement this interface. The getLeaderboard() method would be overridden in each class to execute the specific SQL query required for that mode (e.g.,
    filtering by WHERE game_mode = 'single').
 
 4. Abstraction
-   Location: Refactoring test1.php (Task Logic) → classes/AbstractGame.php
-   Description:
+Location: Refactoring test1.php (Task Logic) → classes/AbstractGame.php
+
+Description:
    -The game loop in test1.php relies on specific tasks defined in the $TASK_LEVELS array.
    -An AbstractGame class would define abstract methods like initializeGame() and processTurn().
 
