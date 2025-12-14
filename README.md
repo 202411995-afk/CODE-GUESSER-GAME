@@ -89,7 +89,7 @@ Then open the code using VSCode, and click on PHP Server: Serve Project and type
 - John Renzyl M. Domingo [Watch Video](https://drive.google.com/drive/folders/1UOdBuNx2w0EJePjQnmJJ4a0kiLWCsSXr?usp=sharing)
 
 # OOP Implementation
-1. Encapsulation
+(**1. Encapsulation**)
 
 Location: Refactoring test1.php (Game Logic) and database.php (Config) → classes/GameSession.php
 
@@ -99,7 +99,7 @@ Description:
   - Public getter and setter methods (e.g., setHealth($value)) would include data validation to ensure health does not drop below 0 or exceed the $MAX_HEALTH defined in test1.php
   - Database credentials currently exposed as raw variables in database.php would be encapsulated within a Database class with private properties.
 
-2. Inheritance
+(**2. Inheritance**)
 
 Location: Refactoring login.php (Auth) and test1.php (Player Actions) → classes/User.php (Parent) and classes/Player.php (Child)
 
@@ -108,7 +108,7 @@ Description:
    -A Player class would extend User, inheriting the login capabilities (username, user_id) while adding game-specific methods like save_game_result() and properties like current_score currently defined as standalone
    functions in test1.php.
 
-3. Polymorphism
+(**3. Polymorphism**)
 
 Location: Refactoring menu.php (Leaderboard Modes) → classes/GameMode.php Interface
 
@@ -118,7 +118,7 @@ Description:
    -Two classes, SinglePlayerMode and MultiPlayerMode, would implement this interface. The getLeaderboard() method would be overridden in each class to execute the specific SQL query required for that mode (e.g.,
    filtering by WHERE game_mode = 'single').
 
-4. Abstraction
+(**4. Abstraction**)
 
 Location: Refactoring test1.php (Task Logic) → classes/AbstractGame.php
 
