@@ -32,7 +32,6 @@ Incorrect Answer: The player loses a significant number of points (e.g., -10 poi
 Game End: 
 The game ends when the Life Bar reaches zero. The player's final score is recorded and displayed on the High Score screen.
 
-
 # Steps-Place the project folder in your web server document root (e.g. htdocs/(filename)
 -Ensure leaderboard.json exists in the same directory as the main PHP file. If it's not there, the app will create it automatically.
 -Open Xampp and then Start APACHE, MYSQL
