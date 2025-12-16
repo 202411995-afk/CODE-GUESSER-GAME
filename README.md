@@ -4,7 +4,8 @@
 "Code Guesser is a challenging and engaging trivia-style game where players must correctly identify or complete snippets of code from various programming languages. The game features a unique mechanic where the player's 'life' (or time/health bar) slowly depletes over time, simulating corrosion. Incorrect answers result in additional point/life deductions, adding urgency and risk to the gameplay."
 
 
-Game Objectives,"The primary objective is to enhance the player's coding knowledge in a fun, entertaining way. Players aim to achieve the highest possible score by correctly identifying code snippets before their life/time runs out."
+Game Objectives
+"The primary objective is to enhance the player's coding knowledge in a fun, entertaining way. Players aim to achieve the highest possible score by correctly identifying code snippets before their life/time runs out."
 
 # Win/Lose Conditions
 Win/Lose Conditions,* Win Condition: There is no traditional 'win' state that ends the game (unless all pre-loaded questions are completed). Winning is defined by achieving a high score and surviving for the longest duration possible. The game may implement a leaderboard feature to track competitive success. * Lose Condition: The game ends immediately when the player's Life/Health Bar reaches zero (due to a combination of time-based corrosion and incorrect answers).
