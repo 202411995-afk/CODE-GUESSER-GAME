@@ -14,11 +14,11 @@ Win/Lose Conditions,* Win Condition: There is no traditional 'win' state that en
 PHP, CCS, XAMPP, MYSQL, SQL
 
 # Team Members and Contributions
-Domingo, John Renzyl M. (FULL STACK)
-Casimiro, Michael Angelo (GIF, ASSETS)
-Cuevillas, Kathrzy 
-Espartero, Jasmine
-Dungca, John Daniel
+**Domingo, John Renzyl M. (FULL STACK)**
+**Casimiro, Michael Angelo (GIF, ASSETS)**
+**Cuevillas, Kathrzy** 
+**Espartero, Jasmine**
+**Dungca, John Daniel**
 
 # How to Play
 
