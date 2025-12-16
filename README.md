@@ -4,7 +4,7 @@
 "Code Guesser is a challenging and engaging trivia-style game where players must correctly identify or complete snippets of code from various programming languages. The game features a unique mechanic where the player's 'life' (or time/health bar) slowly depletes over time, simulating corrosion. Incorrect answers result in additional point/life deductions, adding urgency and risk to the gameplay."
 
 
-Game Objectives
+**Game Objectives**
 "The primary objective is to enhance the player's coding knowledge in a fun, entertaining way. Players aim to achieve the highest possible score by correctly identifying code snippets before their life/time runs out."
 
 # Win/Lose Conditions
