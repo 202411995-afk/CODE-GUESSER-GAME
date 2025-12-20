@@ -96,7 +96,7 @@ Then open the code using VSCode, and click on PHP Server: Serve Project and type
 - John Renzyl M. Domingo [Watch Video](https://drive.google.com/drive/folders/1UOdBuNx2w0EJePjQnmJJ4a0kiLWCsSXr?usp=sharing)
 - Michael Angelo Casimiro [Watch Video](https://drive.google.com/drive/folders/1J4nkfFnkofhmOE3DtbmOPZkkUPXafZll?usp=drive_link)
 - John Daniel Dungca [Watch Video](https://drive.google.com/drive/folders/1EAeC0dYtriLJf5m3Fy2rNy4HS9gLTO0W)
-
+- Jasmine Espartero [Watch Video](https://drive.google.com/file/d/1qgfX4_KNVf8jS5GnY8NO7vcmB17dKURV/view)
 # OOP Implementation
 (**1. Encapsulation**)
 
